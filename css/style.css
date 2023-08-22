@@ -1,0 +1,320 @@
+body {
+    margin: 0 auto;
+    background-color: #0A0A16;
+}
+
+.inlineBlock{
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+   
+}
+
+li {
+    cursor: pointer;
+}
+ul {
+    padding-inline-start: 0px;
+}
+.arrow {
+    cursor: pointer;
+}
+section{
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    background-color:transparent;
+    margin-left: 15%;
+    margin-right: 15%; 
+    height: 60px;
+    align-items: flex-end;
+    justify-content: flex-start; 
+    z-index: 1;
+
+
+}
+
+#mainLogo {
+    position: absolute;
+    top: 0%;
+    left:50%;
+    right: 50%;
+    transform:translate(-50%,0%);
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.83);
+    z-index: 1;
+   
+
+
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #DAE6FA;
+    font-family: 'Kotta One', serif;
+    font-weight: 100;
+    font-size: 18px;
+    gap: 50px;
+    margin: 0;
+    z-index: 1;
+   
+
+  
+}
+
+.heroImage {
+    display: flex;
+    height: 747px;
+    background-image: url(Images/Bluelight\ wide\ custom\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    z-index: -1;
+    transform: translate(0px, -60px);
+    background-color: #0A0A16;
+}
+
+.introText, .hello {
+    font-family: 'Electrolize', Arial, Helvetica, sans-serif;
+    color: #DAE6FA;
+    text-align: center;
+    width: 333px;
+    font-size: 16px;
+    
+
+   
+}
+.hello{
+    padding-top: 100px;
+    font-size: 22px;
+    text-shadow: 0px 0px 12px #E79C48;
+}
+
+.introText{
+    padding-bottom: 10px;
+    text-shadow: 0px 0px 12px #E79C48;
+}
+
+.lightText {
+    color: #FFCA5F;
+    font-family: NovaMono;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+}
+
+
+.arrow {
+   
+    background-color: transparent;
+
+}
+
+.caseStudyNavigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    background-color: #0A0A16;
+    gap: 8px;
+}
+.caseStudyContainer{
+    display: flex;
+    background-image: url(Images/WorkCardBackground.png);
+    background-repeat: no-repeat;
+    width: 1028px;
+    height: 345px;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-evenly;
+    cursor: pointer;
+
+}
+
+.circlePhotoFrame {
+    border-radius: 160px;
+    transform: scale(1);
+    box-shadow: 0px 0px 3.721289873123169px 0px #FFF, 0px 0px 7.442579746246338px 0px #FFF, 0px 0px 26.049030303955078px 0px #FFF, 0px 0px 52.098060607910156px 0px #FFF, 0px 0px 89.31096649169922px 0px #FFF, 0px 0px 156.29417419433594px 0px #FFF;
+    transition: 0.3s; 
+ 
+}
+
+@keyframes fullScale{
+    from{
+        transform:scale(1);
+    }
+    to{
+        transform:scale(1.25);
+    }
+}
+.circlePhotoFrame:hover{
+ 
+}
+
+.workTextCard {
+    display:flex;
+ padding: 20px;
+ flex-direction: column;
+ align-items: flex-start;
+ gap: 14px;
+ width: 428px;
+ background: rgba(0, 0, 0, 0.15);
+ z-index: 1;
+ 
+}
+
+h1 {
+    color: var(--whiteblue, #DAE6FA);
+    text-shadow: 0px 0px 12px #E59545;
+    font-family: Electrolize;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+
+hr.orangeLine {
+ border-top:1px solid #E59545;
+ border-bottom: 1px solid #E59545;
+ width: 428px;
+ margin: 0;
+ transition: 0.3s; 
+ 
+} 
+
+h2 {
+    color: var(--whiteblue, #DAE6FA);
+ font-family: Kotta One;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: normal;
+ margin: 0;
+}
+
+.bodyText {
+    color: var(--whiteblue, #DAE6FA);
+    font-family: Kotta One;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+footer {
+    display: flex;
+    height: 195px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.emailCombined {
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+
+}
+.linkedInCombined {
+    display: flex;
+    gap: 20px;
+    align-items: baseline
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    width: 1026px;
+    align-items: flex-end;
+    height: 48px;
+  
+}
+
+.email, .linkedIn {
+    color: var(--whiteblue, #DAE6FA);
+    font-family: Kotta One;
+    font-size: 14px;
+
+}
+
+.getInTouch {
+    color: var(--whiteblue, #DAE6FA);
+    font-family: Kotta One;
+    font-size: 16px;
+}
+
+.email {
+    display: inline-block;
+ 
+}
+
+.linkedIn{
+    display: inline-block;
+    
+}
+
+.linkedInCombined {
+    padding-left: 92px;
+}
+
+#hamburger {
+    display: none;
+    overflow: visible;
+    z-index: 1;
+    position: relative;
+    left: auto;
+    transform: translate(0px,25px);
+    
+   
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .navigation {
+        display: none;
+    }
+
+    #hamburger {
+        display: flex;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+.caseStudyContainer{
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    gap: 20px;
+    padding: 20px;
+    background-image: url(Images/cardBackgroundMobile.png);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.linkedInCombined{
+    padding-left: 0px;
+}
+
+}
+
+  
