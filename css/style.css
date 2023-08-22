@@ -67,7 +67,7 @@ header{
 .heroImage {
     display: flex;
     height: 747px;
-    background-image: url(Images/Bluelight\ wide\ custom\ 1.png);
+    background-image: url(../Images/Bluelight\ wide\ custom\ 1.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:bottom;
@@ -128,7 +128,7 @@ header{
 }
 .caseStudyContainer{
     display: flex;
-    background-image: url(Images/WorkCardBackground.png);
+    background-image: url(../Images/WorkCardBackground.png);
     background-repeat: no-repeat;
     width: 1028px;
     height: 345px;
