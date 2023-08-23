@@ -66,14 +66,13 @@ header{
 
 .caseStudySplash {
     display: flex;
-    height: 747px;
-    background-image: url(../Images/Bluelight\ wide\ custom\ 1.png);
+    height: 800px;
+    background-image: url(../Images/CaseStudySplashBackground.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:bottom;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
     align-content: center;
     z-index: -1;
     transform: translate(0px, -60px);
@@ -205,7 +204,7 @@ h2 {
 .bodyText {
     color: var(--whiteblue, #DAE6FA);
     font-family: Kotta One;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -278,6 +277,13 @@ footer {
     
    
     
+}
+
+.computerGlow{
+
+    -webkit-filter: drop-shadow(0px 0px 1.4698125123977661px 0px #FFDD96, 0px 0px 2.9396250247955322px 0px #FFDD96, 0px 0px 10.288687705993652px 0px #FFDD96, 0px 0px 20.577375411987305px 0px #FFDD96, 0px 0px 35.2755012512207px 0px #FFDD96, 0px 0px 61.73212432861328px 0px #FFDD96);
+    filter: drop-shadow (0px 0px 1.4698125123977661px 0px #FFDD96, 0px 0px 2.9396250247955322px 0px #FFDD96, 0px 0px 10.288687705993652px 0px #FFDD96, 0px 0px 20.577375411987305px 0px #FFDD96, 0px 0px 35.2755012512207px 0px #FFDD96, 0px 0px 61.73212432861328px 0px #FFDD96);
+
 }
 
 @media only screen and (max-width: 1000px){
