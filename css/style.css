@@ -301,7 +301,7 @@ footer {
 
 .endoCaseStudySubSection {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
  padding-top: 60px;
  padding-bottom: 60px;
  padding-left: 206px;
@@ -309,7 +309,15 @@ footer {
  align-items: flex-start;
  gap: 20px;
  border-top: 4px solid #E59545;
+ height: fit-content;
+ justify-content: space-between;
+}
+.caseStudyColumn {
 
+    width: 41%;
+    gap: 10px;
+    
+    
 }
 .caseStudyHeader{
     color: var(--whiteblue, #DAE6FA);
@@ -362,12 +370,15 @@ line-height: normal;
 
 .paragraphContainer {
     display: flex;
- padding: 16px 0px;
- flex-direction: column;
- align-items: flex-start;
-  gap: 10px;
- align-self: stretch; 
+    padding-top: 16px;
+    padding-bottom: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch; 
 }
+
+
 
 
 @media only screen and (max-width: 1000px){
